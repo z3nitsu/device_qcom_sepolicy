@@ -56,7 +56,7 @@ type vendor_display_prop, property_type;
 type scr_enabled_prop, property_type;
 type bg_daemon_prop, property_type;
 type bg_boot_complete_prop, property_type;
-type opengles_prop, property_type;
+type vendor_opengles_prop, property_type;
 type vendor_mdm_helper_prop, property_type;
 type vendor_mpctl_prop, property_type;
 type vendor_iop_prop, property_type;
@@ -99,6 +99,9 @@ type ctl_vendor_wigigsvc_prop, property_type;
 type hwui_prop, property_type;
 
 type graphics_vulkan_prop, property_type;
+
+#cgroup follow
+type vendor_cgroup_follow_prop, property_type;
 
 #Bservice property
 type bservice_prop, property_type;
@@ -177,3 +180,5 @@ type vendor_camera_prop, property_type;
 type ctl_vendor_rmt_storage_prop, property_type;
 
 type vendor_gpu_prop, property_type;
+
+type vendor_data_ko_prop, property_type;
